@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.6.0.js"></script>
+    <title>jquery</title>
+</head>
+
+<body>
+    <!-- <div>
+        <input type="button" value="点我" id="btn1">
+        <input type="button" value="解绑" id="btn2">
+    </div> -->
+    <br>
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+</body>
+<script>
+    // $("#btn1").click(function () {
+    //     alert("点我干嘛！");
+    // })
+
+    // $("#btn2").click(function () {
+    //     $("#btn1").off("click");
+    // })
+
+    let lis= $("li");
+    // lis.each(function(index,elem){
+    //     alert(index+":"+elem.innerHTML);
+    // });
+
+    // $.each(lis,function(index,elem){
+    //     alert(index+":"+elem.innerHTML);
+    // });
+
+    for (let elem of lis) {
+        alert(elem.innerHTML);
+    }
+
+</script>
+
+</html>
